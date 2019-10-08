@@ -1,13 +1,18 @@
 {
   "name": "bing-map-box",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "bing map component in react.js",
-  "main": "index.tsx",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "webpack-dev-server --env development",
-    "build": "webpack --env production"
+    "build": "tsc"
   },
   "email": "m.r.sadeghi67@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrsadeghi/bing-map-box"
+  },
   "keywords": [
     "bing",
     "map",
@@ -18,7 +23,7 @@
   "author": "MohammadReza Sadeghi",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^16.9.4",
+    "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
     "react": ">=16.10.1",
     "react-dom": ">=16.10.1",
@@ -31,5 +36,6 @@
   "peerDependencies": {
     "react": ">=16.10.1",
     "react-dom": ">=16.10.1"
-  }
+  },
+  "dependencies": {}
 }

@@ -12,7 +12,7 @@ interface IMapProps {
     className: string;
 }
 
-export class BingMap extends React.Component<IMapProps, any> {
+export class BingMapBox extends React.Component<IMapProps, any> {
     private mapRef = React.createRef<HTMLDivElement>();
     private map: any;
     //This function is invoked immediately after the component is mounted to the DOM.

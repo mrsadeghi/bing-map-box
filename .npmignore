@@ -3,3 +3,4 @@ webpack.config.js
     webpack.production.config.js
     .eslintrc
     .gitignore
+    src/

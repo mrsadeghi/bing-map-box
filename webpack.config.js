@@ -35,7 +35,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bing-map-box.js",
+        filename: "index.js",
         publicPath: '/dist/',
     },
     devServer: {
