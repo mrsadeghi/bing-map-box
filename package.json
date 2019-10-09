@@ -1,6 +1,6 @@
 {
   "name": "bing-map-box",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "bing map component in react.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
